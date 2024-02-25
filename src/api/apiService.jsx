@@ -6,7 +6,7 @@ const makeApiRequest = async (requestData) => {
   const authString = md5(`${password}_${timestamp}`);
 
   try {
-    const response = await fetch('https://api.valantis.store:40000/', {
+    const response = await fetch('http://api.valantis.store:40000/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
