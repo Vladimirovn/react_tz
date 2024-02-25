@@ -1,0 +1,14 @@
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.table_title {
+  margin-left: 5px;
+}
+
+.table_filter {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
